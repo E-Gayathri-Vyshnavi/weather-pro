@@ -1,36 +1,35 @@
-# 🏠 House Rental Platform
+*# ☁️ Weather-Pro Dashboard
 
-A full-stack web application designed to bridge the gap between property owners and tenants. This platform allows users to browse available properties, view detailed descriptions, and manage rentals through a modern, intuitive interface.
+A high-performance, real-time weather application built with **Next.js 15** and **TypeScript**. This dashboard provides hyper-local weather data using the OpenWeatherMap API, featuring a modern Glassmorphism UI and dynamic background rendering.
 
 ## 🚀 Live Demo
 [weather-pro-khaki.vercel.app]
 
 ---
 
-## ✨ Key Features
+## 🌟 Features
 
-* **Property Listings:** Dynamic display of available houses with high-quality images and pricing.
-* **Search & Filter:** Advanced filtering options based on location, price range, and property type.
-* **User Authentication:** Secure login and registration for both owners and renters.
-* **Owner Dashboard:** Dedicated space for property owners to list new houses and manage existing ones.
-* **Responsive Design:** Fully optimized for mobile, tablet, and desktop viewing.
-
----
-
-## 🛠️ Tech Stack
-
-* **Frontend:** React.js / Next.js
-* **Styling:** Tailwind CSS
-* **Backend:** Node.js / Express (or specify if using Next.js API routes)
-* **Database:** MongoDB / PostgreSQL (Specify your database)
-* **Deployment:** Vercel
+* **Real-time Geolocation:** Automatically detects user location via the HTML5 Geolocation API to provide instant local data.
+* **Global Search:** Capability to search and retrieve weather data for over 200,000 cities worldwide.
+* **Dynamic Visuals:** UI elements and background logic that adjust based on specific weather conditions (Rain, Clear, Clouds, etc.).
+* **Glassmorphism UI:** A sleek, modern aesthetic using Tailwind CSS `backdrop-blur` and high-contrast typography.
+* **Metric System:** Provides temperature in Celsius, wind speed in m/s, and humidity levels.
 
 ---
 
-## ⚙️ Installation & Setup
+## 🛠️ Technical Stack
 
-Follow these steps to run the project locally:
+* **Framework:** [Next.js 15](https://nextjs.org/) (App Router)
+* **Language:** [TypeScript](https://www.typescriptlang.org/) for type-safe development.
+* **Styling:** [Tailwind CSS](https://tailwindcss.com/) for utility-first styling.
+* **Icons:** [Lucide-React](https://lucide.dev/) for consistent, scalable iconography.
+* **API:** [OpenWeatherMap API](https://openweathermap.org/api) for meteorological data.
+* **Deployment:** [Vercel](https://vercel.com/) with CI/CD integration.
 
-1. **Clone the repository:**
+---
+
+## 🔧 Installation & Setup
+
+1. **Clone the Repo:**
    ```bash
-   git clone [https://github.com/E-Gayathri-Vyshnavi/house-rental-platform.git](https://github.com/E-Gayathri-Vyshnavi/house-rental-platform.git)
+   git clone [https://github.com/E-Gayathri-Vyshnavi/weather-pro.git](https://github.com/E-Gayathri-Vyshnavi/weather-pro.git)
